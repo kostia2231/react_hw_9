@@ -1,0 +1,36 @@
+.firstInput,
+.secondInput {
+  padding: 1rem;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.firstInputError,
+.secondInputError {
+  border: 2px solid red;
+}
+
+p {
+  color: red;
+  font-size: 1rem;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 2rem;
+
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 8px;
+}
+
+input {
+  margin: 10px 0 10px 0;
+}
+
+input::placeholder {
+  color: rgb(232, 232, 232);
+}
